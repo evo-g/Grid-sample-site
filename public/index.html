@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="top-nav">
+        <li class="logo"><a href="#"><img src="./images/evodiogarcia.png" alt="name-logo"></a></li>
+        <li class="empty"><a href="#"></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li id='specials'><a href="#"><span>Specials</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="side-nav">
+      <div class="subnav">
+        <button class="dropdown-button">Subnav</button>
+        <div class="dropdown-container">
+          <div class="down-arrow"></div>
+          <ul class="remove-style">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="related-links">
+        <button class="dropdown-button">Related Links</button>
+        <div class="dropdown-container">
+          <div class="down-arrow"></div>
+          <ul class="remove-style">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="content">
+      <div class="paragraph">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <p>A fun project that was orginally given to me as a front-end developer test and thought it would be a nice way to showcase
+          some of my talents. Using HTML, CSS, and JavaScript. 
+        </p>
+        <p>Has a simple express server to serve the content. The task was to make this mockup site and did what I could to make it
+          spot on. The JavaScript creates the images from an object with other image properties, and appends them with a container div to house the 
+          image and the hover elements. This task can be easily created with a library like React.js, but proved much more difficult with
+          vanilla JS. Side navagation also expands. The end result had me enjoying the use of vanilla JS and more appreciation for what it can do. 
+        </p>
+        <p>I do not own the copyrights to any of the images, perhaps only my own. Logo of company was removed and placed my name instead. 
+          Discretion links do not work only meant to be a single page mockup. Was working for a mobile first approach.
+          Thanks for checking it out have a nice day!
+        </p>
+      </div>
+      <div id="images">
+      </div>
+    </section>
+
+  </main>
+  <script src="./index.js"></script>
+</body>
+
+</html>
